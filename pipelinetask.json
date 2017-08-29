@@ -1,0 +1,20 @@
+{
+        "networkMode": "bridge", 
+        "family": "pipelinetask", 
+        "placementConstraints": [], 
+        "volumes": [], 
+        "containerDefinitions": [
+            {
+                "environment": [], 
+                "name": "pipelinecluster", 
+                "mountPoints": [], 
+                "image": "796098215227.dkr.ecr.us-east-1.amazonaws.com/sandbox:v_75", 
+                "cpu": 0, 
+                "portMappings": [], 
+                "memory": 128, 
+                "essential": true, 
+                "volumesFrom": []
+            }
+        ]
+ 
+}
